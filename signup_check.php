@@ -10,5 +10,5 @@
     $name = $_POST['name'];
     $pw = $_POST['pw'];
 
-    $q = mysqli_query($mysqli,"INSERT INTO user_data(id,username,userpw) VALUES('$id', '$name', '$pw')");
+    mysqli_query($mysqli,"INSERT INTO user_info(id,name,pw) VALUES('$id', '$name', '$pw')");
 ?>
