@@ -1,5 +1,4 @@
 <?php
-echo "hello";
-
+echo "This is the kmla.herokuapp.com!";
 
 ?>
