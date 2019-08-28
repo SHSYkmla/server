@@ -1,13 +1,13 @@
 ﻿<?php
-	require_once("../dbconfig.php");
+	require_once("dbconfig.php");
 ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8" />
 	<title>자유게시판 | Kurien's Library</title>
-	<link rel="stylesheet" href="./css/normalize.css" />
-	<link rel="stylesheet" href="./css/board.css" />
+	<link rel="stylesheet" href="normalize.css" />
+	<link rel="stylesheet" href="board.css" />
 </head>
 <body>
 	<article class="boardArticle">
