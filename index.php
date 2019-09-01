@@ -24,6 +24,7 @@
 				//contests 여기다 추가하세요
 				//
 
+				echo "<p><a href='changeprofile.html'>프로필 바꾸기</a></p>"; //자신의 정보를 바꾸는 새로운 코드?
 				echo "<p><a href='logout.php'>로그아웃</a></p>";
 			?>
         	<a href="signup.html" target="right">
