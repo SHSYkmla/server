@@ -7,9 +7,8 @@
 
     <body>
             <h2>회원가입</h2>
-
-            <form action = "signup_check.php" method="POST">
-                echo "<p>$name($id)님 정보</p>";
+            <h3>$_SESSION['name']님 정보</h3>
+            <form action = "changeprofile_check.php" method="POST">
                 <p>새 아이디:</p>
                     <input type="text" name="id">
                     <br>
