@@ -21,7 +21,7 @@
         echo "<button onclick-\"location.href='changeprofile.html'\"> 돌아가기 </button>";
         exit();
     }
-    $changeprofile=mysqli_query($mysqli,"INSERT INTO user_info (id,pw) VALUES ('$id','$pw')");
+    $changeprofile=mysqli_query($mysqli,"UPDATE user_info SET id = $id, pw = $pw WHERE name = $name)");
     if($changeprofile)
     {
         ?>
