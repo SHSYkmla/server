@@ -31,5 +31,5 @@
         <?php
     }
     else
-        echo "<button onclick=\"location.href='signup.html'\"> 프로필 변경 실패, 돌아가기 </button>";
+        echo "<button onclick=\"location.href='changeprofile.html'\"> 프로필 변경 실패, 돌아가기 </button>";
 ?>
