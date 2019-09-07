@@ -1,9 +1,9 @@
 <?php
-    
+    session_start();
     require('db.php');
 
     $id = $_POST['new_id'];
-    $name = $_POST['name'];
+    $name = $_SESSION['name'];
     $pw = $_POST['new_pw'];
     
     $check="SELECT *from user_info WHERE userid='$id'";
@@ -15,7 +15,7 @@
         exit();
     }
 
-    $changeprofile=mysqli_query($mysqli,"UPDATE user_info SET id = '$_POST['new_id']', pw = '$_POST['new_pw']' WHERE name = '$_POST['name']'");
+    $changeprofile=mysqli_query($mysqli,"UPDATE user_info SET id = '$id', pw = '$pw' WHERE name = '$name'");
     if($changeprofile)
     {
         <meta charset="utf-8" />
