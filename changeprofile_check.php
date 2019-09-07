@@ -5,7 +5,6 @@
     $id = $_POST['new_id'];
     $name = $_POST['name'];
     $pw = $_POST['new_pw'];
-    $pw1 = $_POST['new_pw1'];
     
     $check="SELECT *from user_info WHERE userid='$id'";
     $result=$mysqli->query($check);
@@ -16,7 +15,7 @@
         exit();
     }
     //db.php 수정 꼭 필요!!
-    $changeprofile=mysqli_query($mysqli,"UPDATE user_info SET id = $id, pw = $pw WHERE name = $name");
+    $changeprofile=mysqli_query($mysqli,"UPDATE user_info, SET id = $id, pw = $pw, WHERE name = $name");
     if($changeprofile)
     {
         ?>
