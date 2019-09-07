@@ -15,7 +15,7 @@
         echo "<button onclick=\"location.href='changeprofile.html'\"> 돌아가기 </button>";
         exit();
     }
-    if($pw == $pw1) //db.php 수정 꼭 필요!!
+    if(pw == pw1) //db.php 수정 꼭 필요!!
     {
         echo "비밀번호가 맞지 않습니다.";
         echo "<button onclick-\"location.href='changeprofile.html'\"> 돌아가기 </button>";
