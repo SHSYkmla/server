@@ -1,57 +1,69 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE>
+ 
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Write something else you want</title>
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
- 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
- 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <meta charset = 'utf-8'>
 </head>
+<style>
+        table.table2{
+                border-collapse: separate;
+                border-spacing: 1px;
+                text-align: left;
+                line-height: 1.5;
+                border-top: 1px solid #ccc;
+                margin : 20px 10px;
+        }
+        table.table2 tr {
+                 width: 50px;
+                 padding: 10px;
+                font-weight: bold;
+                vertical-align: top;
+                border-bottom: 1px solid #ccc;
+        }
+        table.table2 td {
+                 width: 100px;
+                 padding: 10px;
+                 vertical-align: top;
+                 border-bottom: 1px solid #ccc;
+        }
+ 
+</style>
 <body>
-<div class="container">
-<table class="table table-bordered">
-    <thead>
-        <caption> 글쓰기 </caption>
-    </thead>
-    <tbody>
-        <form action="write_ok.jsp" method="post" encType="multiplart/form-data">
-            <tr>
-                <th>제목: </th>
-                <td><input type="text" placeholder="제목을 입력하세요. " name="subject" class="form-control"/></td>
-            </tr>
-            <tr>
-                <th>내용: </th>
-                <td><textarea cols="10" placeholder="내용을 입력하세요. " name="content" class="form-control"></textarea></td>
-            </tr>
-            <tr>
-                <th>첨부파일: </th>
-                <td><input type="text" placeholder="파일을 선택하세요. " name="filename" class="form-control"/></td>
-            </tr>
-            <tr>
-                <th>비밀번호: </th>
-                <td><input type="password" placeholder="비밀번호를 입력하세요" class="form-control"/></td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <input type="button" value="등록" onclick="sendData()" class="pull-right"/>
-                    <input type="button" value="reset" class="pull-left"/>
-                    <input type="button" value="글 목록으로... " class="pull-right" onclick="javascript:location.href='list.jsp'"/>
-                    <!-- <a class="btn btn-default" onclick="sendData()"> 등록 </a>
-                    <a class="btn btn-default" type="reset"> reset </a>
-                    <a class="btn btn-default" onclick="javascript:location.href='list.jsp'">글 목록으로...</a> -->
+        <form method = "get" action = "write_action.php">
+        <table  style="padding-top:50px" align = center width=700 border=0 cellpadding=2 >
+                <tr>
+                <td height=20 align= center bgcolor=#ccc><font color=white> 글쓰기</font></td>
+                </tr>
+                <tr>
+                <td bgcolor=white>
+                <table class = "table2">
+                        <tr>
+                        <td>작성자</td>
+                        <td><input type = text name = name size=20> </td>
+                        </tr>
+ 
+                        <tr>
+                        <td>제목</td>
+                        <td><input type = text name = title size=60></td>
+                        </tr>
+ 
+                        <tr>
+                        <td>내용</td>
+                        <td><textarea name = content cols=85 rows=15></textarea></td>
+                        </tr>
+ 
+                        <tr>
+                        <td>비밀번호</td>
+                        <td><input type = password name = pw size=10 maxlength=10></td>
+                        </tr>
+                        </table>
+ 
+                        <center>
+                        <input type = "submit" value="작성">
+                        </center>
                 </td>
-            </tr>
+                </tr>
+        </table>
         </form>
-    </tbody>
-</table>
-</div>
 </body>
 </html>
