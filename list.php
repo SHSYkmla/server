@@ -33,13 +33,12 @@
 </style>
 <body>
 <?php
- $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
- $server = $url["host"];
- $serverusername = $url["user"];
- $serverpassword = $url["pass"];
- $db = substr($url["path"], 1);
- $connect=mysqli_connect($server, $serverusername, $serverpassword, $db);
-                
+                $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+                $server = $url["host"];
+                $serverusername = $url["user"];
+                $serverpassword = $url["pass"];
+                $db = substr($url["path"], 1);
+                $connect=mysqli_connect($server, $serverusername, $serverpassword, $db);
                 $query ="select * from board order by number desc";
                 $result = $connect->query($query);
                 $total = mysqli_num_rows($result);
