@@ -15,7 +15,7 @@
         exit();
     }
 
-    $changeprofile=mysqli_query($mysqli,"UPDATE user_info SET id = '$_POST['new_id']', pw = $_POST['new_pw'] WHERE name = $_POST['name']");
+    $changeprofile=mysqli_query($mysqli,"UPDATE user_info SET id = '$_POST['new_id']', pw = '$_POST['new_pw']' WHERE name = '$_POST['name']'");
     if($changeprofile)
     {
         <meta charset="utf-8" />
