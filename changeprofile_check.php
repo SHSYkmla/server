@@ -15,7 +15,7 @@
         exit();
     }
     //db.php 수정 꼭 필요!!
-    $changeprofile=mysqli_query($mysqli,"UPDATE user_info, SET id = $id, pw = $pw, WHERE name = $name");
+    $changeprofile=mysqli_query($mysqli,"UPDATE user_info SET id = $id, pw = $pw WHERE name = $name");
     if($changeprofile)
     {
         ?>
