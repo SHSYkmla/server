@@ -15,12 +15,7 @@
         echo "<button onclick=\"location.href='changeprofile.html'\"> 돌아가기 </button>";
         exit();
     }
-    if(pw == pw1) //db.php 수정 꼭 필요!!
-    {
-        echo "비밀번호가 맞지 않습니다.";
-        echo "<button onclick-\"location.href='changeprofile.html'\"> 돌아가기 </button>";
-        exit();
-    }
+    //db.php 수정 꼭 필요!!
     $changeprofile=mysqli_query($mysqli,"UPDATE user_info SET id = $id, pw = $pw WHERE name = $name");
     if($changeprofile)
     {
