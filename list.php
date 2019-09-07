@@ -127,7 +127,7 @@ mysql_close($conn);
     <td width=600 height=20 align=center rowspan=4>
     <font color=gray>
     &nbsp;
-<?php
+<?php 
 $start_page = floor(($current_page - 1) / $page_list_size) * $page_list_size + 1;
 # floor 함수는 소수점 이하는 버림
 

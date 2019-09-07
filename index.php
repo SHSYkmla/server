@@ -27,8 +27,8 @@
 				echo "<p><a href='changeprofile.html'>프로필 바꾸기</a></p>"; //자신의 정보를 바꾸는 새로운 코드?
 				echo "<p><a href='logout.php'>로그아웃</a></p>";
 			?>
-        	<a href="signup.html" target="right">
-				<button>회원가입 하러가기</button>
+        	<a href="write.php" target="right">
+    		<button>글쓰러 가기</button>
 			</a>
 			
     </body>
