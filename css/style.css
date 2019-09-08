@@ -30,6 +30,7 @@ ul li {
 }
 .list-table {
 	margin-top: 40px;
+	color: rgb(235, 170, 127);
 }
 .list-table thead th{
 	height:40px;
