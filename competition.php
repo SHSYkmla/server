@@ -18,7 +18,7 @@
       <thead>
           <tr>
               <th width="70">순위</th>
-                <th width="500">이름</th>
+                <th width="250">이름</th>
                 <th width="120">해결한 프로젝트</th>
                 <th width="120">획득한 금액</th>
                 <th width="100">추천수</th>
