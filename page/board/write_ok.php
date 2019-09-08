@@ -5,8 +5,7 @@ $date = date('Y-m-d');
 $userpw = password_hash($_POST['pw'], PASSWORD_DEFAULT);
 $lo_post = '0';
 
-$query = insert into board(name,pw,title,content,date,lock_post) values
-('".$_POST['name']." ','".$userpw."','".$_POST['title']."','".$_POST['content']."','".$date."','".$lo_post."');
+$sql = mq("insert into board(name,pw,title,content,date,lock_post) values('".$_POST['name']."','".$userpw."','".$_POST['title']."','".$_POST['content']."','".$date."','".$lo_post."')"); ?>
 $result = mysql_query($query,$conn);
 <script type="text/javascript">alert("글쓰기 완료되었습니다.");</script>
 mysql_close($conn);
