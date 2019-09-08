@@ -18,7 +18,7 @@
 				$id = $_SESSION['id'];
 				$name = $_SESSION['name'];
 
-				echo "<p>안녕하세요. $name($id)님</p>";
+				echo "<p>안녕하세요. $name님</p>";
 
 				//
 				//contests 여기다 추가하세요
