@@ -3,10 +3,10 @@
                 $server = $url["host"];
                 $connect = mysqli_connect($server, "", "", "") or die("connect fail");
                 session_start();
-                $id = $_GET[name];                      //Writer
-                $pw = $_GET[pw];                        //Password
-                $title = $_GET[title];                  //Title
-                $content = $_GET[content];              //Content
+                $id = $_GET['id'];                      //Writer
+                $pw = $_GET['password'];                        //Password
+                $title = $_GET['title'];                  //Title
+                $content = $_GET['content'];              //Content
                 $date = date('Y-m-d H:i:s');            //Date
  
                 
