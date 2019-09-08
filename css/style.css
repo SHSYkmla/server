@@ -47,6 +47,7 @@ ul li {
 #write_btn {
 	position: absolute;
 	margin-top:20px;
+	color: rgb(235, 170, 127);
 	right: 0;
 }
 
