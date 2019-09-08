@@ -23,12 +23,6 @@
 				}
 				$id = $_SESSION['id'];
 				$name = $_SESSION['name'];
-
-				echo "<p>안녕하세요, '$name'님!</p>";
-
-				//
-				//contests 여기다 추가하세요
-				//
 				
 				echo "<a href='changeprofile.html'><button>프로필 바꾸기</button></a>"; //자신의 정보를 바꾸는 새로운 코드?
         echo "<a href='logout.php'><button>로그아웃</button></a>";
