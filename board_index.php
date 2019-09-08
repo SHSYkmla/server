@@ -32,7 +32,7 @@
 				
 				echo "<a href='changeprofile.html'><button>프로필 바꾸기</button></a>"; //자신의 정보를 바꾸는 새로운 코드?
         echo "<a href='logout.php'><button>로그아웃</button></a>";
-        echo  "<a href="/page/board/write.php"><button>프로젝트 올리기</button></a>";
+        echo "<a href='/page/board/write.php'><button>프로젝트 올리기</button></a>";
 			?>
 
   <div id="write_btn">
