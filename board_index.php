@@ -8,13 +8,37 @@
 <link rel="stylesheet" type="text/css" href="/css/style.css" />
 </head>
 <body>
+
 <div id="board_area">
-  <h1>자유게시판</h1>
-  <h4>자유롭게 글을 쓸 수 있는 게시판입니다.</h4>
+  <h1>9인9직 for programmers in KMLA</h1>
+  <h4>자유롭게 프로젝트를 올려주세요! <br> 이곳에는 준비된 프로그래머들이 있습니다! </h4>
+  <body background="brownkmla.jpg">
+  <?php
+				session_start();
+
+				if(!isset($_SESSION['id']) || !isset($_SESSION['name']))
+				{
+					echo "<meta http-equiv='refresh' content='0;url=login.html'>";
+					exit;
+				}
+				$id = $_SESSION['id'];
+				$name = $_SESSION['name'];
+
+				echo "<p>안녕하세요, '$name'님!</p>";
+
+				//
+				//contests 여기다 추가하세요
+				//
+				echo "<a href='board_index.php' target='right'><button>게시판 가기</button></a>";
+				echo "<a href='changeprofile.html'><button>프로필 바꾸기</button></a>"; //자신의 정보를 바꾸는 새로운 코드?
+				echo "<a href='logout.php'><button>로그아웃</button></a>";
+			?>
+
   <div id="write_btn">
-      <a href="/page/board/write.php"><button>글쓰기</button></a>
+      <a href="/page/board/write.php"><button>프로젝트 올리기</button></a>
     </div>
     <table class="list-table">
+      
       <thead>
           <tr>
               <th width="70">번호</th>
@@ -50,9 +74,6 @@
       </tbody>
       <?php } ?>
     </table>
-    <div id="write_btn">
-      <a href="/page/board/write.php"><button>글쓰기</button></a>
-    </div>
   </div>
 </body>
 </html>

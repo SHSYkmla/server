@@ -25,7 +25,7 @@
             if(isset($_SESSION['id'])) 
             {
                 //로그인 성공 시 페이지 이동
-                header('Location: ./index.php');   
+                header('Location: ./board_index.php');   
                 exit();
             }
         }

@@ -13,7 +13,6 @@
 
 
 
-
 /*
 include $_SERVER['DOCUMENT_ROOT']."/board_db.php";
 $date = date('Y-m-d');
