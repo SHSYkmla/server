@@ -14,7 +14,7 @@
   <h4>자유롭게 프로젝트를 올려주세요! <br> 이곳에는 준비된 프로그래머들이 있습니다! </h4>
   <body background="brownkmla.jpg">
   <div id="write_btn">
-      <a href="/page/board/write.php"><button>글쓰기</button></a>
+      <a href="/page/board/write.php"><button>프로젝트 올리기</button></a>
     </div>
     <table class="list-table">
       
@@ -53,9 +53,6 @@
       </tbody>
       <?php } ?>
     </table>
-    <div id="write_btn">
-      <a href="/page/board/write.php"><button>글쓰기</button></a>
-    </div>
   </div>
 </body>
 </html>
