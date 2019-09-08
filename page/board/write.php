@@ -6,8 +6,8 @@
 </head>
 <body>
     <div id="board_write">
-        <h1><a href="/">자유게시판</a></h1>
-        <h4>글을 작성하는 공간입니다.</h4>
+        <h1><a href="/">원하시는 프로젝트와 금액을 올려주세요!</a></h1>
+        
             <div id="write_area">
                 <form action="write_ok.php" method="post">
                     <div id="in_title">
