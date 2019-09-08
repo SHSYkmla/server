@@ -8,8 +8,9 @@
 <link rel="stylesheet" type="text/css" href="/css/style.css" />
 </head>
 <body>
+<body background="brownkmla.jpg">
 <div id="board_area">
-  <h1>자유게시판</h1>
+  <h1>ㅇㅇㅇㅇㅇ</h1>
   <h4>자유롭게 글을 쓸 수 있는 게시판입니다.</h4>
   <div id="write_btn">
       <a href="/page/board/write.php"><button>글쓰기</button></a>
