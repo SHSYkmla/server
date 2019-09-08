@@ -7,7 +7,7 @@
 <body>
     <div id="board_write">
         <h1><a href="/">원하시는 프로젝트와 금액을 올려주세요!</a></h1>
-        
+        <body background="brownkmla.jpg">
             <div id="write_area">
                 <form action="write_ok.php" method="post">
                     <div id="in_title">
