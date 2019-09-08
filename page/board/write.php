@@ -7,13 +7,12 @@
 <body>
 <body background="brownkmla.jpg">
     <div id="board_write">
-
         <h1><a href="/">원하시는 프로젝트와 금액을 올려주세요!</a></h1>
             <div id="write_area">
             
                 <form action="write_ok.php" method="post">
                     <div id="in_title">
-                        <textarea name="title" id="utitle" rows="1" cols="55" placeholder="제목" maxlength="100" required></textarea>
+                        <textarea name="title" id="utitle" rows="1" cols="55" placeholder="프로젝트 제목" maxlength="100" required></textarea>
                     </div>
                     <div class="wi_line"></div>
                     <div id="in_name">
