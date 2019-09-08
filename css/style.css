@@ -59,6 +59,7 @@ ul li {
 	margin:0 auto;
 }
 #write_area {
+	color: rgb(235, 170, 127);
 	margin-top:70px;
 	font-size:14px;}
 #in_name {
