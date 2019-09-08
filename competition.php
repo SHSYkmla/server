@@ -1,48 +1,26 @@
-<?php
-  include $_SERVER['DOCUMENT_ROOT']."/board_db.php";
-?>
-<!doctype html>
+<!DOCTYPE html>
 <head>
-<meta charset="UTF-8">
-<title>게시판</title>
-<link rel="stylesheet" type="text/css" href="/css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>순위</title>
 </head>
 <body>
-
-<div id="board_area">
+<div id="board_area1">
   <h1>9인9직 for programmers in KMLA</h1>
-  <h4>자유롭게 프로젝트를 올려주세요! <br> 이곳에는 준비된 프로그래머들이 있습니다! </h4>
+  <h2>누가누가 잘하나!<br> 순위를 확인하세요! </h2>
   <body background="brownkmla.jpg">
-  <?php
-				session_start();
+</div>
 
-				if(!isset($_SESSION['id']) || !isset($_SESSION['name']))
-				{
-					echo "<meta http-equiv='refresh' content='0;url=login.html'>";
-					exit;
-				}
-				$id = $_SESSION['id'];
-				$name = $_SESSION['name'];
-				
-				echo "<a href='changeprofile.html'><button>프로필 바꾸기</button></a>"; //자신의 정보를 바꾸는 새로운 코드?
-        echo "<a href='logout.php'><button>로그아웃</button></a>";
-        echo "<a href='/page/board/write.php'><button>프로젝트 올리기</button></a>";
-        echo "<a href='competition.php'><button>순위 확인하기</button></a>";
-			?>
-
-  <div id="write_btn">
-      
-    </div>
-    <table class="list-table">
+<table class="list-table1">
       
       <thead>
           <tr>
-              <th width="70">번호</th>
-                <th width="500">제목</th>
-                <th width="120">글쓴이</th>
-                <th width="120">금액</th>
-                <th width="100">작성일</th>
-                <th width="100">조회수</th>
+              <th width="70">순위</th>
+                <th width="500">이름</th>
+                <th width="120">해결한 프로젝트</th>
+                <th width="120">획득한 금액</th>
+                <th width="100">추천수</th>
             </tr>
         </thead>
         <?php
@@ -71,6 +49,6 @@
       </tbody>
       <?php } ?>
     </table>
-  </div>
+    
 </body>
 </html>

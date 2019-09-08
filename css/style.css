@@ -52,6 +52,36 @@ ul li {
 	right: 0;
 }
 
+/* 순위 목록 */
+#board_area1 {
+	width: 900px;
+	position: relative;
+	
+}
+.list-table1 {
+	margin-top: 40px;
+	
+}
+.list-table thead th{
+	height:40px;
+	border-top:2px solid rgba(165, 73, 202, 0.637);
+	border-bottom:1px solid rgba(165, 73, 202, 0.637);
+	font-weight: bold;
+	font-size: 17px;
+	
+}
+.list-table tbody td{
+	text-align:center;
+	padding:10px 0;
+	border-bottom:1px solid rgb(235, 170, 127); height:20px;
+	font-size: 14px  
+}
+#write_btn {
+	position: absolute;
+	margin-top:20px;
+	right: 0;
+}
+
 /* 게시판 글쓰기 */
 #board_write {
 	width:900px;
