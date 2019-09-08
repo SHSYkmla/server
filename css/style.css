@@ -26,7 +26,7 @@ ul li {
 #board_area {
 	width: 900px;
 	position: relative;
-	color: rgb(235, 170, 127) 
+	
 }
 .list-table {
 	margin-top: 40px;
@@ -41,8 +41,8 @@ ul li {
 .list-table tbody td{
 	text-align:center;
 	padding:10px 0;
-	border-bottom:1px solid #CCC; height:20px;
-	font-size: 14px 
+	border-bottom:1px solid rgb(235, 170, 127); height:20px;
+	font-size: 14px  
 }
 #write_btn {
 	position: absolute;
