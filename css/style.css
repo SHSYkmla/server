@@ -62,7 +62,7 @@ ul li {
 	margin-top: 40px;
 	
 }
-.list-table thead th{
+.list-table1 thead th{
 	height:40px;
 	border-top:2px solid rgba(165, 73, 202, 0.637);
 	border-bottom:1px solid rgba(165, 73, 202, 0.637);
@@ -70,7 +70,7 @@ ul li {
 	font-size: 17px;
 	
 }
-.list-table tbody td{
+.list-table1 tbody td{
 	text-align:center;
 	padding:10px 0;
 	border-bottom:1px solid rgb(235, 170, 127); height:20px;
