@@ -23,16 +23,10 @@
 				}
 				$id = $_SESSION['id'];
 				$name = $_SESSION['name'];
-
-				echo "<p>안녕하세요, '$name'님!</p>";
-
-				//
-				//contests 여기다 추가하세요
-				//
 				
 				echo "<a href='changeprofile.html'><button>프로필 바꾸기</button></a>"; //자신의 정보를 바꾸는 새로운 코드?
         echo "<a href='logout.php'><button>로그아웃</button></a>";
-        echo  "<a href="/page/board/write.php"><button>프로젝트 올리기</button></a>";
+        echo "<a href='/page/board/write.php'><button>프로젝트 올리기</button></a>";
 			?>
 
   <div id="write_btn">
@@ -45,6 +39,7 @@
               <th width="70">번호</th>
                 <th width="500">제목</th>
                 <th width="120">글쓴이</th>
+                <th width="120">금액</th>
                 <th width="100">작성일</th>
                 <th width="100">조회수</th>
             </tr>
