@@ -39,6 +39,7 @@
               <th width="70">번호</th>
                 <th width="500">제목</th>
                 <th width="120">글쓴이</th>
+                <th width="120">금액</th>
                 <th width="100">작성일</th>
                 <th width="100">조회수</th>
             </tr>
