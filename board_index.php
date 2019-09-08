@@ -15,6 +15,7 @@
       <a href="/page/board/write.php"><button>글쓰기</button></a>
     </div>
     <table class="list-table">
+      
       <thead>
           <tr>
               <th width="70">번호</th>

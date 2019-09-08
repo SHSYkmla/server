@@ -15,7 +15,6 @@ echo("<meta http-equiv="refresh" content="0 https://kmla.herokuapp.com/board_ind
 
 
 
-
 /*
 include $_SERVER['DOCUMENT_ROOT']."/board_db.php";
 $date = date('Y-m-d');
