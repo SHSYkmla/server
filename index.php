@@ -6,7 +6,7 @@
     </head>
 
     <body>
-            <h2>닷넷 2차 선발용 로그인 웹 템플릿<h2>
+            <h2>노력 중......<h2>
             <?php
 				session_start();
 
