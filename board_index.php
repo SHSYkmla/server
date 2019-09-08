@@ -10,7 +10,7 @@
 <body>
 
 <div id="board_area">
-  <h1>9인9직 for programmers </h1>
+  <h1>9인9직 for programmers in KMLA</h1>
   <h4>자유롭게 프로젝트를 올려주세요! <br> 이곳에는 준비된 프로그래머들이 있습니다! </h4>
   <body background="brownkmla.jpg">
   <div id="write_btn">
