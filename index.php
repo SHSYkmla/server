@@ -6,6 +6,7 @@
     </head>
 
     <body>
+		<body background="brownkmla.jpg">
             <h2>아직 공사중...<h2>
             <?php
 				session_start();
