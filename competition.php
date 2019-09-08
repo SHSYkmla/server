@@ -6,13 +6,13 @@
     <title>순위</title>
 </head>
 <body>
-<div id="board_area">
+<div id="board_area1">
   <h1>9인9직 for programmers in KMLA</h1>
   <h2>누가누가 잘하나!<br> 순위를 확인하세요! </h2>
   <body background="brownkmla.jpg">
 </div>
 
-<table class="list-table">
+<table class="list-table1">
       
       <thead>
           <tr>
