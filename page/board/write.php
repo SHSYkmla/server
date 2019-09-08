@@ -11,7 +11,7 @@
             <div id="write_area">
                 <form action="write_ok.php" method="post">
                     <div id="in_title">
-                        <textarea name="title" id="utitle" rows="1" cols="55" placeholder="제목" maxlength="100" required></textarea>
+                        <textarea name="title" id="utitle" rows="1" cols="55" placeholder="제목과 금액" maxlength="100" required></textarea>
                     </div>
                     <div class="wi_line"></div>
                     <div id="in_name">
