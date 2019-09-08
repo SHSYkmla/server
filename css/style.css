@@ -30,7 +30,7 @@ ul li {
 }
 .list-table {
 	margin-top: 40px;
-	color: rgb(235, 170, 127);
+	
 }
 .list-table thead th{
 	height:40px;
@@ -38,6 +38,7 @@ ul li {
 	border-bottom:1px solid rgba(165, 73, 202, 0.637);
 	font-weight: bold;
 	font-size: 17px;
+	color: rgb(235, 170, 127);
 }
 .list-table tbody td{
 	text-align:center;
