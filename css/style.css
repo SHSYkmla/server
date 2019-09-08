@@ -32,8 +32,8 @@ ul li {
 }
 .list-table thead th{
 	height:40px;
-	border-top:2px solid #09C;
-	border-bottom:1px solid #CCC;
+	border-top:2px solid rgba(165, 73, 202, 0.637);
+	border-bottom:1px solid rgb(253, 187, 132);
 	font-weight: bold;
 	font-size: 17px;
 }
