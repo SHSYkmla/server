@@ -1,6 +1,6 @@
 <?php
 
-include "board_db.php";
+include $_SERVER['DOCUMENT_ROOT']."board_db.php";
 
 $query = insert into board(name,pw,title,content,date,lock_post) values
 ('".$_POST['name']." ','".$userpw."','".$_POST['title']."','".$_POST['content']."','".$date."','".$lo_post."');
