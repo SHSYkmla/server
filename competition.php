@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>순위</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
 </head>
 <body>
 <div id="board_area1">
@@ -17,7 +18,7 @@
       <thead>
           <tr>
               <th width="70">순위</th>
-                <th width="500">이름</th>
+                <th width="250">이름</th>
                 <th width="120">해결한 프로젝트</th>
                 <th width="120">획득한 금액</th>
                 <th width="100">추천수</th>
