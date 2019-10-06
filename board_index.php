@@ -3,9 +3,15 @@
 ?>
 <!doctype html>
 <head>
-<meta charset="UTF-8">
-<title>게시판</title>
-<link rel="stylesheet" type="text/css" href="/css/style.css" />
+  <style>
+    .bg{
+      background: linear-gradient(to right, red, blue);
+      hight 100%;
+    }
+  </style>
+  <meta charset="UTF-8">
+  <title>게시판</title>
+  <link rel="stylesheet" type="text/css" href="/css/style.css" />
 </head>
 <body>
 
