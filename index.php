@@ -25,7 +25,7 @@
 				//contests 여기다 추가하세요
 				//
 				echo "<a href='board_index.php' target='right'><button>게시판 가기</button></a>";
-				echo "<a href='changeprofile_ip.php'>프로필 바꾸기</a>"; //자신의 정보를 바꾸는 새로운 코드?
+				echo "<p><a href='changeprofile_ip.php'>프로필 바꾸기</a></p>"; //자신의 정보를 바꾸는 새로운 코드?
 				echo "<p><a href='logout.php'>로그아웃</a></p>";
 			?>
 			
