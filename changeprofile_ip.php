@@ -11,7 +11,7 @@
             <?php
                 echo "<p><a href='changeprofile_id.php'>아이디 변경</br></p>";
                 echo "<p><a href='changeprofile_password.php'>비번 변경</br></p>";
-                echo "<p><a href='changeprofile.html'>프로필 사진 변경</a></p>";
+                //echo "<p><a href='changeprofile.html'>프로필 사진 변경</a></p>";
             ?>
     </body>
 
