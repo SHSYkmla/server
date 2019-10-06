@@ -20,6 +20,7 @@
             //비밀번호 확인됐으면 세션 변수 만들기
             $_SESSION['id']=$id;
             $_SESSION['name']=$name;
+            $_SESSION['picprofile']
             
             //세션 변수에 등록 잘 됐는지 확인
             if(isset($_SESSION['id'])) 
