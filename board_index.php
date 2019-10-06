@@ -54,6 +54,7 @@
               {
                 $title=str_replace($board["title"],mb_substr($board["title"],0,30,"utf-8")."...",$board["title"]); //title이 30을 넘어서면 ...표시
               }
+            }
         ?>
       <tbody>
         <tr>
@@ -69,7 +70,6 @@
           <td width="100"><?php echo $board['hit']; ?></td>
         </tr>
       </tbody>
-      <?php } ?>
     </table>
   </div>
 </body>
