@@ -6,7 +6,6 @@
     </head>
 
     <body>
-            <form action="changeprofile_change.php" method="post">
             <body background="brownkmla.jpg">
             <h2></h2>
             <h3>회원 정보</h3>

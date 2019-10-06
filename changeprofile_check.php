@@ -11,7 +11,7 @@
     if($result->num_rows==1)
     {
         echo "중복된 아이디입니다.";
-        echo "<button onclick=\"location.href='changeprofile.html'\"> 돌아가기 </button>";
+        echo "<button onclick=\"location.href='changeprofile_id.php'\"> 돌아가기 </button>";
         exit();
     }
 
@@ -23,5 +23,5 @@
         <meta http-equiv="refresh" content="0 url=/">
     }
     else
-        echo "<button onclick=\"location.href='changeprofile.html'\"> 프로필 변경 실패, 돌아가기 </button>";
+        echo "<button onclick=\"location.href='changeprofile_ip.php'\"> 프로필 변경 실패, 돌아가기 </button>";
 ?>
